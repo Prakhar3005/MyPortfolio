@@ -1,0 +1,82 @@
+/* src/components/Profile.css */
+body {
+  background-color: #141414;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0px 50px;
+  padding: 40px;
+  color: #ffffff;
+  justify-content: center;
+}
+
+.profile-image img {
+  width: 337px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 158px;
+  border: 2px solid black;
+}
+
+.profile-info {
+  max-width: 600px;
+}
+
+.profile-info h1 {
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.profile-info h4 {
+  font-size: 20px;
+  color: #b3b3b3;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  color: #b3b3b3;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.profile-icons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.profile-icons a {
+  color: #e50914;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.profile-icons a:hover {
+  color: #ffffff;
+}
+
+.profile-info p {
+  font-size: 16px;
+  color: #b3b3b3;
+  margin-bottom: 10px;
+}
+
+.profile-info strong {
+  color: #ffffff;
+}
+
+.education p ul li{
+  line-height: 26px;
+}
+
+.interest p{
+  line-height: 26px;
+}

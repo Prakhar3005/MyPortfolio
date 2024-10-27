@@ -1,0 +1,64 @@
+.projects-experience-page {
+  padding: 0 50px;
+  text-align: center;
+}
+
+.projects-experience-page h2{
+  margin-bottom: 25px;
+    color: #e50914;
+    font-size: 31px;
+}
+
+.projects, .experience {
+  margin-bottom: 50px;
+}
+
+.projects h3, .experience h3{
+  font-size: 23px;
+}
+
+.projects-cards, .experience-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+  gap: 30px;
+}
+
+.project-card, .experience-card {
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  overflow: hidden;
+  transition: transform 0.3s; 
+}
+
+.project-card:hover, .experience-card:hover {
+  transform: translateY(-5px); 
+}
+
+.project-image, .experience-image {
+  height: 200px; 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+
+.project-content, .experience-content {
+  padding: 15px;
+  text-align: left; 
+}
+
+.project-card h4, .experience-card h4 {
+  font-size: 1.5em;
+  margin: 0 0 10px 0;
+}
+
+.project-card p, .experience-card p {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.experience-card span {
+  font-size: 0.9em;
+  color: #777; 
+}
