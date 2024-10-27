@@ -13,3 +13,5 @@ All the code is in src folder in App.js and Components folder(Containing JSX and
 All the assets(images) are in public/assets folder. 
 
 ## Now you can view my entire portfolio!!
+
+GitHub Link to my portfolio: https://github.com/Prakhar3005/MyPortfolio
